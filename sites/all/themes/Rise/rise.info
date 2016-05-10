@@ -1,0 +1,44 @@
+name = Rise
+description = Responsive One Page Parallax Drupal 7 Theme. 
+core = 7.x
+engine = phptemplate
+version = 1.0.3
+
+; Define theme stylesheets.
+stylesheets[all][] = css/gumby.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/mobile.css
+stylesheets[all][] = css/drupal.css
+stylesheets[all][] = css/dark.css
+
+; Define theme JS.
+scripts[] = js/libs/modernizr-2.6.2.min.js
+scripts[] = js/libs/gumby.min.js
+scripts[] = js/jquery.browser.min.js
+scripts[] = js/plugins.js
+scripts[] = js/main.js
+scripts[] = js/matchMedia.js
+scripts[] = js/ajax.js
+scripts[] = js/jquery.tubular.1.0.js
+
+; Define theme regions.
+
+regions[site_navigation] = Site Navigation
+regions[blog_menu_left] = Blog Menu Left
+regions[blog_menu_right] = Blog Menu Right
+regions[before_content] = Before Content
+regions[content] = Content
+regions[after_content] = After Content
+regions[front_content] = Front Page Content
+regions[sidebar_left] = Sidebar Left
+regions[sidebar_right] = Sidebar Right
+regions[footer] = Footer
+
+; Define theme setting defaults.
+
+settings[color_scheme] = light
+settings[loader] = 1
+
+settings[meta_date] = 1
+settings[meta_author] = 1
+settings[meta_tags] = 1
